@@ -1,0 +1,25 @@
+:root {
+  --COLOR_DARK_BACKGROUND: "#091A41";
+  --COLOR_LIGHT_BACKGROUND: "#10293E";
+  --COLOR_TEXT: "#091A41";
+  --COLOR_ELEMENTS: "#DAAC22";
+  --COLOR_OTHER: "#FBFCFB";
+}
+
+body {
+  margin: 0;
+}
+
+div#root {
+  height: 100vh;
+  display: flex;
+}
+
+div#app {
+  background-color: var(--COLOR_OTHER);
+  border: 2px dotted var(--COLORS_DARK_BACKGROUND);
+  overflow-wrap: "break-word";
+  text-overflow: "ellipsis";
+  padding: 25px 40px;
+  margin: 25px 40px;
+}

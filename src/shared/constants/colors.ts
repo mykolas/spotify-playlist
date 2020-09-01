@@ -1,0 +1,7 @@
+export enum COLORS {
+    DARK_BACKGROUND = "#091A41",
+    LIGHT_BACKGROUND = "#10293E",
+    TEXT = "#091A41",
+    ELEMENTS = "#DAAC22",
+    OTHER = "#FBFCFB",
+}

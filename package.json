@@ -1,0 +1,43 @@
+{
+  "name": "spotify-playlist",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack",
+    "spotify"
+  ],
+  "author": "mykolas.kairys@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.48",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.2",
+    "@types/webpack": "4.41.21",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "css-loader": "^4.2.2",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "html-webpack-plugin": "^4.4.1",
+    "prettier": "^2.1.1",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
